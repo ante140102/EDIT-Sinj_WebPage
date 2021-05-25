@@ -1,0 +1,132 @@
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(image/shop.jpg);
+}
+
+.header
+{
+  height:10%;
+}
+
+.shop-details
+{
+  margin:3% 0;
+}
+
+.left-box
+{
+  color: #fff;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+h1
+{
+  font-family: impact;
+  color:#fff;
+}
+
+.series img
+{
+  width: 350px;
+  box-shadow: -4px 4px 5px 0 #000;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+
+.series img:hover
+{
+  transform: scale(1.05);
+}
+
+.header-btn, .header-btn2,.header-btn3,.header-btn4
+{
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 4px 12px;
+  color: #fff !important;
+  background: transparent;
+  font-weight: 600;
+  border: 2px solid grey;
+  outline: none;
+  position:relative;
+  top:20px;
+  left:20px;
+}
+
+.header-btn:hover, .header-btn2:hover, .header-btn3:hover, .header-btn4:hover
+{
+transform: scale(1.05);
+background-color: #107afd;
+border: 2px solid white;
+}
+
+@media only screen and (min-width: 768px)
+{
+  .series img
+  {
+    width: 200px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  .header-btn, .header-btn2,.header-btn3,.header-btn4
+  {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    color: #fff !important;
+    background: transparent;
+    font-weight: 600;
+    border: 2px solid grey;
+    outline: none;
+    margin-left: 30px;
+  }
+
+  .header-btn4
+  {
+    float:right;
+    top:10px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1025px)
+{
+
+  .header-btn, .header-btn2,.header-btn3,.header-btn4
+  {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    color: #fff !important;
+    background: transparent;
+    font-weight: 600;
+    border: 2px solid grey;
+    outline: none;
+    top:40px;
+  }
+
+    .header-btn
+    {
+      margin-left: -200px;
+    }
+
+  .header-btn4
+  {
+    float:right;
+    top:40px;
+    margin-right: -200px;
+  }
+
+  .series img
+  {
+    width: 315px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+}
